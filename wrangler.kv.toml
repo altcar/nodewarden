@@ -18,6 +18,7 @@ crons = [ "*/5 * * * *" ]
 [[d1_databases]]
 binding = "DB"
 database_name = "nodewarden-db"
+database_id = "cee5c63e-16ef-46c7-b260-4fbc0022f0aa"
 
 [[durable_objects.bindings]]
 name = "NOTIFICATIONS_HUB"
@@ -29,6 +30,7 @@ class_name = "BackupTransferRunner"
 
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "813b8cf39ba649e5b33f9dd52f3afd3a"
 
 [[migrations]]
 tag = "v1-notifications-hub"
